@@ -1,18 +1,18 @@
 Papelaria Aquarela
 -
-•Sistema de cadastro de itens de papelaria.
+<p>•Sistema de cadastro de itens de papelaria.</p>
 
 Funcionalidades:
 -
-•Tela de login com email e senha.
-•Tela de cadastro para cadastrar o item pelo nome, descrição e categoria.
-•Tela de lista onde podemos ver os itens cadastrados e remove-los da lista.
+<p>•Tela de login com email e senha.</p>
+<p>•Tela de cadastro para cadastrar o item pelo nome, descrição e categoria.</p>
+<p>•Tela de lista onde podemos ver os itens cadastrados e remove-los da lista.</p>
 
 Tecnologias usadas:
 -
-•HTML
-•CSS
-•JavaScript
+<p>•HTML</p>
+<p>•CSS</p>
+<p>•JavaScript</p>
 
 Instruções:
 -
