@@ -15,9 +15,7 @@ function initLogin() {
       return;
     }
 
-    // Pode salvar email (e senha se quiser, mas normalmente não se salva assim)
     localStorage.setItem("usuarioEmail", email);
-    // redireciona para cadastro
     window.location.href = "cadastro.html";
   });
 }
@@ -31,18 +29,15 @@ class Produto {
   }
 }
 
-// Salvar itens no localStorage
 const salvarItens = (itens) => {
   localStorage.setItem("itensPapelaria", JSON.stringify(itens));
 };
 
-// Carregar itens do localStorage
 const carregarItens = () => {
   const dados = localStorage.getItem("itensPapelaria");
   return dados ? JSON.parse(dados) : [];
 };
 
-// Inicializa página de cadastro
 function initCadastro() {
   const form = document.getElementById("form-cadastro");
   const itens = carregarItens();
@@ -72,7 +67,6 @@ function initCadastro() {
   });
 }
 
-// Inicializa página da lista
 function initLista() {
   const listaElement = document.getElementById("lista-itens");
   const btnBuscar = document.getElementById("btn-buscar");
