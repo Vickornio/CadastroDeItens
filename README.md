@@ -16,6 +16,11 @@ Tecnologias usadas:
 
 Instruções:
 -
+<p>•Coloque um email e senha de pelo menos 6 digitos e clique no botão entrar;</p>
+<p>•Ponha o nome do item, sua descrição, selecione a categoria e cadastre o item;</p>
+<p>•Depois vá na lista de itens e encontrará os itens que cadastrou;</p>
+<p>•Pode pesquisar um item específico pelo seu nome e/ou categoria;</p>
+<p>•Por fim delete o item de sua lista.</p>
 
 Feito por Sabrina Beatriz da Silva
 -
