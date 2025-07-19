@@ -1,0 +1,199 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #f8e1f4, #d9b8f4);
+  min-height: 100vh;
+  color: #4a2a56;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+.container {
+  background: #fff0ff;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(131, 45, 131, 0.3);
+  max-width: 500px;
+  width: 100%;
+  padding: 2rem;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #7b3f82;
+}
+
+h2 {
+  margin-bottom: 1rem;
+  color: #9c55a1;
+  border-bottom: 2px solid #d4a3d9;
+  padding-bottom: 0.5rem;
+}
+
+.login-container {
+  max-width: 360px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea,
+select {
+  padding: 0.6rem;
+  border: 2px solid #cca4d4;
+  border-radius: 6px;
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+  background-color: #fff0ff;
+  color: #4a2a56;
+}
+
+input[type="password"]:focus,
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus,
+select:focus {
+  border-color: #7b3f82;
+  outline: none;
+  background-color: #f9e9ff;
+}
+
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+label {
+  font-weight: 600;
+}
+
+input[type="text"],
+input[type="email"],
+textarea,
+select {
+  padding: 0.6rem;
+  border: 2px solid #cca4d4;
+  border-radius: 6px;
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus,
+select:focus {
+  border-color: #7b3f82;
+  outline: none;
+}
+
+textarea {
+  resize: vertical;
+}
+
+.btn-primary {
+  background-color: #a85dba;
+  color: #fff;
+  border: none;
+  padding: 0.8rem;
+  font-size: 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #7b3f82;
+}
+
+.btn-secondary {
+  background-color: #d8b7e0;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  font-size: 0.95rem;
+  border-radius: 6px;
+  cursor: pointer;
+  color: #4a2a56;
+  transition: background-color 0.3s ease;
+}
+
+.btn-secondary:hover {
+  background-color: #b382bc;
+  color: #fff;
+}
+
+.cadastro-box,
+.login-box,
+.lista-box {
+  margin-top: 1rem;
+}
+
+.busca-container {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.busca-container input[type="text"],
+.busca-container select {
+  flex: 1;
+}
+
+#lista-itens {
+  list-style: none;
+  max-height: 300px;
+  overflow-y: auto;
+  border: 1px solid #d9b8f4;
+  border-radius: 6px;
+  padding: 0.5rem;
+  background-color: #fdf5ff;
+}
+
+#lista-itens li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.6rem 0.5rem;
+  border-bottom: 1px solid #d9b8f4;
+}
+
+#lista-itens li:last-child {
+  border-bottom: none;
+}
+
+.item-info {
+  max-width: 80%;
+}
+
+.item-info strong {
+  color: #7b3f82;
+}
+
+.btn-remover {
+  background-color: #e85c7a;
+  border: none;
+  color: white;
+  padding: 0.4rem 0.8rem;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.85rem;
+  transition: background-color 0.3s ease;
+}
+
+.btn-remover:hover {
+  background-color: #ba3757;
+}
+
+@media (max-width: 520px) {
+  .container {
+    padding: 1rem;
+  }
+}

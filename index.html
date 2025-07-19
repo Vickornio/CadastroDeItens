@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Papelaria Aquarela - Login</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="container login-container">
+    <h1>Papelaria Aquarela</h1>
+    <section class="login-box">
+      <h2>Login</h2>
+      <form id="login-form">
+        <label for="email">Email:</label>
+        <input type="email" id="email" placeholder="seu@email.com" required />
+
+        <label for="senha">Senha:</label>
+        <input type="password" id="senha" placeholder="********" required minlength="6" />
+
+        <button type="submit" class="btn-primary">Entrar</button>
+      </form>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+  <script>
+    initLogin();
+  </script>
+</body>
+</html>

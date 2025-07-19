@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Papelaria Aquarela - Lista de Itens</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="container">
+    <header>
+      <h1>Papelaria Aquarela</h1>
+      <nav>
+        <button id="btn-cadastro" class="btn-secondary">Voltar ao Cadastro</button>
+      </nav>
+    </header>
+
+    <section class="lista-box">
+      <h2>Itens Cadastrados</h2>
+
+      <div class="busca-container">
+        <input type="text" id="busca-nome" placeholder="Buscar por nome..." />
+        <select id="busca-categoria">
+          <option value="">Todas Categorias</option>
+          <option value="Escolar">Escolar</option>
+          <option value="Pintura">Pintura</option>
+          <option value="Escritório">Escritório</option>
+          <option value="Presente">Presente</option>
+        </select>
+        <button id="btn-buscar" class="btn-primary">Buscar</button>
+      </div>
+
+      <ul id="lista-itens"></ul>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+  <script>
+    document.getElementById("btn-cadastro").addEventListener("click", () => {
+      window.location.href = "cadastro.html";
+    });
+
+    initLista();
+  </script>
+</body>
+</html>
